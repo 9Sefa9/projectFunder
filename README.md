@@ -1,3 +1,4 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/9sefa9/projectFunder)
 # Project Funder
   Implementierung einer Crowd-Funding Web Application “Funder”.  Die Crowdfunding-Plattform soll den Nutzern ermöglichen,
   bestimmte Projekte durch spenden zu unterstützen. Dabei soll es möglich sein zu kommentieren, neue Projekte anzulegen oder
