@@ -50,7 +50,7 @@
 
 	<servlet>
 		<servlet-name>hello_servlet</servlet-name>
-		<servlet-class>de.unidue.inf.is.HelloServlet</servlet-class>
+		<servlet-class>vorerstUnnoetig.HelloServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -60,12 +60,12 @@
 	
 	<servlet>
 		<servlet-name>projectFunder_servlet</servlet-name>
-		<servlet-class>de.unidue.inf.is.ProjectFunderServlet</servlet-class>
+		<servlet-class>de.unidue.inf.is.servlets.ProjectFunderServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>projectFunder_servlet</servlet-name>
-		<url-pattern>/projectFunder</url-pattern>
+		<url-pattern>/view_main</url-pattern>
 	</servlet-mapping>
 
 	<!-- Prevent the visiting of MVC Views from outside the servlet container. 

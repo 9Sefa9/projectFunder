@@ -1,4 +1,4 @@
-package de.unidue.inf.is;
+package de.unidue.inf.is.servlets;
 
 import java.io.IOException;
 
@@ -33,7 +33,7 @@ public final class ProjectFunderServlet extends HttpServlet {
             request.setAttribute("db2exists", "nicht vorhanden :-(");
         }
 
-        request.getRequestDispatcher("projectFunder_start.ftl").forward(request, response);
+        request.getRequestDispatcher("view_main.ftl").forward(request, response);
     }
 
 }

@@ -1,4 +1,4 @@
-package de.unidue.inf.is;
+package vorerstUnnoetig;
 
 import java.io.IOException;
 
