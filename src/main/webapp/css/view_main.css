@@ -1,8 +1,11 @@
 * {
+    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
     margin:0;
     padding:0;
 }
-
+li{
+    list-style-type: none;
+}
 body{
     text-align:center;
     background: #efe4bf none repeat scroll 0 0;
@@ -19,8 +22,7 @@ body{
 }
 
 #header{
-    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
-    color: #fdfff4;
+    color: #ff0062;
     background-color: #cac9c9;
     border: 7px solid #2BA475;
     border-radius: 40px;
@@ -28,10 +30,37 @@ body{
     padding: 1em 0em 1em 1em;
 }
 
-#view_main{
+#view_main_divid{
+    text-decoration: none;
     background-color: #fff;
     padding: 20px 0px 0px 0px;
 }
 .centerBlock{
     margin:0 auto;
+}
+/*
+Profil Button:
+*/
+#btn_profil_divid{
+    padding-right: 80%;
+}
+#btn_profil_id{
+    font-size: 1em;
+    width:7em;
+    height:zem; 
+}
+#open_projects_divid, #occupied_projects_divid{
+   padding: 10px 10px 10px 0;
+}
+#open_projects_base_ul_id, #occupied_projects_base_ul_id {
+    align-content: center;
+}
+#open_projects_li_id, #occupied_projects_li_id {
+  
+    padding: 1em 1em 1em 19em;
+}
+#open_projects_list_divid, #occupied_projects_list_divid{
+    width:50%;
+    height:auto;
+    border: 7px dotted #2BA475;
 }
