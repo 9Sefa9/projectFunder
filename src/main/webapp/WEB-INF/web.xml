@@ -68,17 +68,6 @@
 		<url-pattern>/view_main</url-pattern>
 	</servlet-mapping>
 
-
-	<servlet>
-		<servlet-name>view_profile_servlet</servlet-name>
-		<servlet-class>de.unidue.inf.is.servlets.ViewProfileServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>view_profile_servlet</servlet-name>
-		<url-pattern>/view_profile</url-pattern>
-	</servlet-mapping>
-
-
 	<servlet>
 		<servlet-name>view_profile_servlet</servlet-name>
 		<servlet-class>de.unidue.inf.is.servlets.ViewProfileServlet</servlet-class>

@@ -3,12 +3,10 @@
     margin:0;
     padding:0;
 }
-li{
-    list-style-type: none;
-}
+
 body{
     text-align:center;
-    background: #efe4bf none repeat scroll 0 0;
+    background: #d8f7f4 none repeat scroll 0 0;
 }
 
 #wrapper{
@@ -23,17 +21,17 @@ body{
 
 #header{
     color: #ff0062;
-    background-color: #cac9c9;
+    background-color: #ecf000;
     border: 7px solid #2BA475;
     border-radius: 40px;
     height: 3.5em;
     padding: 1em 0em 1em 1em;
 }
-.centerBlock{
-    margin:0 auto;
-}
-#view_main_divid{
+#new_project_divid{
     text-decoration: none;
     background-color: #fff;
     padding: 20px 0px 0px 0px;
+}
+.centerBlock{
+    margin:0 auto;
 }

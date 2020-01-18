@@ -8,7 +8,7 @@ li{
 }
 body{
     text-align:center;
-    background: #efe4bf none repeat scroll 0 0;
+    background: #efbfbf none repeat scroll 0 0;
 }
 
 #wrapper{
@@ -23,7 +23,7 @@ body{
 
 #header{
     color: #ff0062;
-    background-color: #cac9c9;
+    background-color: #f1fccb;
     border: 7px solid #2BA475;
     border-radius: 40px;
     height: 3.5em;
@@ -34,7 +34,7 @@ body{
 }
 #view_main_divid{
     text-decoration: none;
-    background-color: #fff;
+    background-color: #e1fff8;
     padding: 20px 0px 0px 0px;
 }
 
