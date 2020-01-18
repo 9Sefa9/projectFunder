@@ -28,9 +28,18 @@ body{
     padding: 1em 0em 1em 1em;
 }
 #new_project_divid{
+    padding: 2em;
     text-decoration: none;
     background-color: #fff;
-    padding: 20px 0px 0px 0px;
+    /*padding: 20px 0px 0px 0px;*/
+}
+#ul_divid{
+    width: 25%;
+    padding-right: 20em;
+    padding-left: 20em;
+}
+li{
+    list-style-type: none;
 }
 .centerBlock{
     margin:0 auto;
