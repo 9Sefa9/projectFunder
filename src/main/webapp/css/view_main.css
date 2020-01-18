@@ -29,26 +29,34 @@ body{
     height: 3.5em;
     padding: 1em 0em 1em 1em;
 }
-
+.centerBlock{
+    margin:0 auto;
+}
 #view_main_divid{
     text-decoration: none;
     background-color: #fff;
     padding: 20px 0px 0px 0px;
 }
-.centerBlock{
-    margin:0 auto;
+
+
+
+#btn_base_divid{
+    
 }
-/*
-Profil Button:
-*/
-#btn_profil_divid{
-    padding-right: 80%;
+
+#btn_divid{
+   
 }
 #btn_profil_id{
+    padding: 0.5em 0.5em 0.5em 0.5em;
     font-size: 1em;
-    width:7em;
+    width:auto;
     height:zem; 
 }
+
+
+
+
 #open_projects_divid, #occupied_projects_divid{
    padding: 10px 10px 10px 0;
 }
