@@ -19,7 +19,7 @@ import de.unidue.inf.is.utils.DBUtil;
  * Das könnte die Eintrittsseite sein.
  * AUFRUFBAR MIT http://localhost:9061/hello
  */
-public final class ProjectFunderServlet extends HttpServlet {
+public final class ViewMainServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
     private static List<Project> projects = new ArrayList<>();

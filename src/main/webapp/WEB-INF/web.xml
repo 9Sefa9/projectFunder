@@ -58,15 +58,47 @@
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
 	
+	<!--TODO: servlet tags hinzufügen/umändern entsprechend der servlet-mappings!-->
 	<servlet>
-		<servlet-name>projectFunder_servlet</servlet-name>
-		<servlet-class>de.unidue.inf.is.servlets.ProjectFunderServlet</servlet-class>
+		<servlet-name>view_main_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.ViewMainServlet</servlet-class>
 	</servlet>
-
 	<servlet-mapping>
-		<servlet-name>projectFunder_servlet</servlet-name>
+		<servlet-name>view_main_servlet</servlet-name>
 		<url-pattern>/view_main</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>view_profile_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.ViewProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>view_profile_servlet</servlet-name>
+		<url-pattern>/view_profile</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>view_project_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.ViewProjectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>view_project_servlet</servlet-name>
+		<url-pattern>/view_project</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>new_project_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.NewProjectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>new_project_servlet</servlet-name>
+		<url-pattern>/new_project</url-pattern>
+	</servlet-mapping>
+
+
+
 
 	<!-- Prevent the visiting of MVC Views from outside the servlet container. 
 		RequestDispatcher.forward/include should and will still work. Removing this 

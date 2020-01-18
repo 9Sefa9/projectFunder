@@ -8,7 +8,7 @@ li{
 }
 body{
     text-align:center;
-    background: #efe4bf none repeat scroll 0 0;
+    background: #efbfbf none repeat scroll 0 0;
 }
 
 #wrapper{
@@ -23,32 +23,40 @@ body{
 
 #header{
     color: #ff0062;
-    background-color: #cac9c9;
+    background-color: #f1fccb;
     border: 7px solid #2BA475;
     border-radius: 40px;
     height: 3.5em;
     padding: 1em 0em 1em 1em;
 }
-
-#view_main_divid{
-    text-decoration: none;
-    background-color: #fff;
-    padding: 20px 0px 0px 0px;
-}
 .centerBlock{
     margin:0 auto;
 }
-/*
-Profil Button:
-*/
-#btn_profil_divid{
-    padding-right: 80%;
+#view_main_divid{
+    text-decoration: none;
+    background-color: #e1fff8;
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+#btn_base_divid{
+    
+}
+
+#btn_divid{
+   
 }
 #btn_profil_id{
+    padding: 0.5em 0.5em 0.5em 0.5em;
     font-size: 1em;
-    width:7em;
+    width:auto;
     height:zem; 
 }
+
+
+
+
 #open_projects_divid, #occupied_projects_divid{
    padding: 10px 10px 10px 0;
 }
