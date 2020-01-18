@@ -24,30 +24,15 @@
 				1 einzelnes <li> erzeugt ein Projekt mit jeweiligen Eigenschaften. Eventuell zur Laufzeit generieren.
 				Vorlage: siehe unten:
 				-->
+				<#list projects as project>
 				<li id= "open_projects_li_id">
 					<div id="open_projects_list_divid">
-					<p>Projekt Name</p>
-					<img src="TO BE FILLED" alt="Projekt Bild bitte füllen."/>
-					<p>Erstellt von: Max</p>
-					<p>Aktueller Betrag: 0 Euro</p>
+					<p>${project.getTitel()}</p>
+					<p>Erstellt von: ${project.getErsteller()}</p>
+					<p>Aktueller Betrag: ${project.getSpendenbetrag()} Euro</p>
 					</div>
 				</li>
-				<li id= "open_projects_li_id">
-					<div id="open_projects_list_divid">
-					<p>Projekt Name</p>
-					<img src="TO BE FILLED" alt="Projekt Bild bitte füllen."/>
-					<p>Erstellt von: KENAN</p>
-					<p>Aktueller Betrag: ICH BIN ARM HAB KEIN GELD</p>
-					</div>
-				</li>
-				<li id= "open_projects_li_id">
-					<div id="open_projects_list_divid">
-					<p>Projekt Name</p>
-					<img src="TO BE FILLED" alt="Projekt Bild bitte füllen."/>
-					<p>Erstellt von: SEFA</p>
-					<p>Aktueller Betrag: ICH BIN ARM HAB KEIN GELD</p>
-					</div>
-				</li>
+				</#list>
 			</ul>
 		</div>
 			
@@ -59,6 +44,7 @@
 				1 einzelnes <li> erzeugt ein Projekt mit jeweiligen Eigenschaften. Eventuell zur Laufzeit generieren.
 				Vorlage: siehe unten:
 				-->
+				<#list fprojects as fproject>
 				<li id= "occupied_projects_li_id">
 					<div id="occupied_projects_list_divid">
 					<p>Projekt Name</p>
@@ -67,22 +53,7 @@
 					<p>Aktueller Betrag: 0 Euro</p>
 					</div>
 				</li>
-				<li id= "occupied_projects_li_id">
-					<div id="occupied_projects_list_divid">
-					<p>Projekt Name</p>
-					<img src="TO BE FILLED" alt="Projekt Bild bitte füllen."/>
-					<p>Erstellt von: KENAN</p>
-					<p>Aktueller Betrag: ICH BIN ARM HAB KEIN GELD</p>
-					</div>
-				</li>
-				<li id= "occupied_projects_li_id">
-					<div id="occupied_projects_list_divid">
-					<p>Projekt Name</p>
-					<img src="TO BE FILLED" alt="Projekt Bild bitte füllen."/>
-					<p>Erstellt von: SEFA</p>
-					<p>Aktueller Betrag: ICH BIN ARM HAB KEIN GELD</p>
-					</div>
-				</li>
+				</#list>
 			</ul>
 		</div>
 		</div>
