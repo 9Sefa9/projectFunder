@@ -98,6 +98,15 @@
 	</servlet-mapping>
 
 
+	<servlet>
+		<servlet-name>edit_project_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.EditProjectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>edit_project_servlet</servlet-name>
+		<url-pattern>/edit_project</url-pattern>
+	</servlet-mapping>
+
 
 
 	<!-- Prevent the visiting of MVC Views from outside the servlet container. 
