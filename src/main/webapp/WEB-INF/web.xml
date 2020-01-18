@@ -97,6 +97,14 @@
 		<url-pattern>/new_project</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>new_project_fund_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.NewProjectFundServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>new_project_fund_servlet</servlet-name>
+		<url-pattern>/new_project_fund</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>edit_project_servlet</servlet-name>
