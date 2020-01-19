@@ -1,13 +1,13 @@
 <html>
 <head><title>ProjectFunder</title></head>
-<link rel="stylesheet" type="text/css" href="/css/new_project.css">
+<link rel="stylesheet" type="text/css" href="/css/edit_project.css">
 <body>
 <div id="wrapper">
 		<div id="header">
-			<h1> Neues Projekt erstellen</h1>
+			<h1>Projekt editieren</h1>
 		</div>
 
-		<div id="new_project_divid">
+		<div id="edit_project_divid">
 			<div id="ul_divid">
 				<form>
 			<ul>
@@ -46,7 +46,7 @@
 				<h2>Beschreibung:</h2> <textarea></textarea>
 			</li>
 			<li>
-				<input style="padding:1em 1em 1em 1em;" type="submit" value="Erstellen">
+				<input style="padding:1em 1em 1em 1em;" type="submit" value="Aktualisieren">
 			</li>
 			</ul>	
 			</form>
