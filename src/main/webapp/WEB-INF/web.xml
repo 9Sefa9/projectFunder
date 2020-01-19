@@ -115,7 +115,14 @@
 		<url-pattern>/edit_project</url-pattern>
 	</servlet-mapping>
 
-
+	<servlet>
+		<servlet-name>new_comment_servlet</servlet-name>
+		<servlet-class>de.unidue.inf.is.servlets.NewCommentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>new_comment_servlet</servlet-name>
+		<url-pattern>/new_comment</url-pattern>
+	</servlet-mapping>
 
 	<!-- Prevent the visiting of MVC Views from outside the servlet container. 
 		RequestDispatcher.forward/include should and will still work. Removing this 
