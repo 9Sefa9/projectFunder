@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+}
+body{
+    text-align:center;
+    background: #efbfbf none repeat scroll 0 0;
+}
+
+#wrapper{
+    width:960px;
+    margin:0 auto;
+    text-align:center;
+    background-color: #6b96ff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    box-shadow: 1px -2px 14px rgba(0, 0, 0, 0.4);
+}
+
+#header{
+    color: #ff0062;
+    background-color: #f1fccb;
+    border: 7px solid #2BA475;
+    border-radius: 40px;
+    height: 3.5em;
+    padding: 1em 0em 1em 1em;
+}
+.centerBlock{
+    margin:0 auto;
+}
+#view_profile_divid{
+    text-decoration: none;
+    background-color: #e1fff8;
+    padding: 20px 0px 0px 0px;
+}
+
+
+#btn_profil_id{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 1em;
+    width:auto;
+    height:zem; 
+}
+
+
+
+
+#created_projects_divid, #supported_projects_divid{
+   padding: 10px 10px 10px 0;
+}
+#created_projects_base_ul_id, #supported_projects_base_ul_id {
+    align-content: center;
+}
+#created_projects_li_id, #supported_projects_li_id {
+  
+    padding: 1em 1em 1em 19em;
+}
+#created_projects_list_divid, #supported_projects_list_divid{
+    width:50%;
+    height:auto;
+    border: 7px dotted #2BA475;
+}
