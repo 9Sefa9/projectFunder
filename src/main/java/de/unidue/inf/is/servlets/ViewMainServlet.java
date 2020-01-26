@@ -39,6 +39,8 @@ public final class ViewMainServlet extends HttpServlet {
             request.setAttribute("db2exists", "nicht vorhanden :-(");
         }
         request.getRequestDispatcher("view_main.ftl").forward(request, response);
+   
+        
     }
 
 }

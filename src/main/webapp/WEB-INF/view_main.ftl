@@ -11,7 +11,7 @@
 					<div id="btn_divid">
 						<button id="btn_profil_id">Mein Profil</button>				
 					<!--Die Datenbank funder ist ${db2exists}-->
-						<button id="btn_profil_id">Projekt erstellen</button>
+						<button id="btn_profil_id" type="submit"  onclick="location.href='/new_project'">Projekt erstellen</button>
 					</div>
 		</div>
 
