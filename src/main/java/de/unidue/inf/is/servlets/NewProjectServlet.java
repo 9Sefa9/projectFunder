@@ -16,5 +16,19 @@ public final class NewProjectServlet extends HttpServlet {
                     throws ServletException, IOException {
         request.getRequestDispatcher("new_project.ftl").forward(request, response);
     }
-
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException {
+        String title = request.getParameter("title");
+        String financeLimit = request.getParameter("financeLimit");
+        
+        String katHealthWellness = request.getParameter("healthWellness");
+        String katArtCreativeWork = request.getParameter("artCreativeWork");
+        String katEducation = request.getParameter("education");
+        String katTechInnovation = request.getParameter("techInnovation");
+        String katUbuntuTouch = request.getParameter("UbuntuTouch");
+        String katUbuntuTouchPro = request.getParameter("UbuntuTouchPro"); 
+        String katNoPredecessor = request.getParameter("NoPredecessor");
+        String btnCreate = request.getParamter("Create");
+        doGet(request,response);
+    }
 }
