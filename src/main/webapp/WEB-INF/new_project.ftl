@@ -43,7 +43,7 @@
 				Kein Vorgänger <input type="radio" id="input_category_noPredecessor_id" name="NoPredecessor"><br>
 			</li>
 			<li>
-				<h2>Beschreibung:</h2> <textarea></textarea>
+				<h2>Beschreibung:</h2> <textarea name="description"></textarea>
 			</li>
 			<li>
 				<input style="padding:1em 1em 1em 1em;" type="submit" value="Erstellen" name="Create">
