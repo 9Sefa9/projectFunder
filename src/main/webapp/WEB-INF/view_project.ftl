@@ -9,21 +9,21 @@
 
 		<div id="view_project_divid">
             <div id="titel_id">
-                <h1>Ubuntu Touch Pro</h1>
-                <h4><a href="https://google.de">von Max Mustermann</a></h4>
-                <p>Das Nachfolgermodell des Ubuntu Touch mit neuesten Features und..</p>
+                <h1>${project.getTitel()}</h1>
+                <h4><a href="https://google.de">von ${project.getErsteller()}</a></h4>
+                <p>${project.getBeschreibung()}</p>
                 <div id="sub_information_id">
                     <ul>
                         <li>
-                            <p>Finanzierungslimit: 20€</p>
+                            <p>Finanzierungslimit: ${project.getFinanzierungsLimit()}€</p>
                         </li>
 
                         <li>
-                            <p>Aktuelle Spendensumme: 20€</p>
+                            <p>Aktuelle Spendensumme: ${project.getSpendenbetrag()}€</p>
                         </li>
 
                         <li>
-                            <p>Status: offen</p>
+                            <p>Status: ${project.getStatus()}</p>
                         </li>
 
                         <li>
@@ -34,7 +34,7 @@
             </div>
             <div id="action_bar_id">
                <h3>Aktionsleiste</h3>
-               <input style="padding:1em 1em 1em 1em; background-color:green; color:white;" type="submit" value="Spenden">
+               <a href="new_project_fund?kennung=${project.getKennung()}"><input style="padding:1em 1em 1em 1em; background-color:green; color:white;" type="submit" name=value="Spenden"></a>
                <input style="padding:1em 1em 1em 1em; background-color:red; color:white;" type="submit" value="Projekt Löschen">
                <input style="padding:1em 1em 1em 1em; background-color:blue; color:white;" type="submit" value="Projekt Editieren">
             </div>

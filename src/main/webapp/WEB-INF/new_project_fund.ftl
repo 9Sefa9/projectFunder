@@ -4,15 +4,16 @@
 <body>
 <div id="wrapper">
 		<div id="header">
-			<h1>Ubuntu Touch Pro<!-- Hier kommt der Titel des Projekts--></h1>
+			<h1>${project.getTitel()}</h1>
 		</div>
 
 		<div id="new_project_fund_divid">
 			<div id="ul_divid">
-				<form>
-			<ul>
+				<form method="post">
+			<ul> 
+			<input type="hidden" id="referer" name="kennung" value=${project.getKennung()}>
 			<li>
-  				<h2>Spendenbetrag(€):</h2> <input type="number" id="finance_limit_id"><br>
+  				<h2>Spendenbetrag(€):</h2> <input type="number" name="donation"><br>
 			</li>
             <li>
                 <h3>Anonym spenden? <input type="checkbox" id="finance_limit_id"></h3>

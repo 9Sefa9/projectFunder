@@ -28,6 +28,9 @@ public final class ViewMainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	projects = DBUtil.getProjects();
+    	
+			finishedProjects = DBUtil.getClosedProjects();
+		
     	request.setAttribute("projects", projects);
     	request.setAttribute("fprojects", finishedProjects);
         boolean databaseExists = DBUtil.checkDatabaseExistsExternal();

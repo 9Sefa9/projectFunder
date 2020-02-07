@@ -3,6 +3,7 @@ package de.unidue.inf.is.domain;
 import java.text.DecimalFormat;
 
 public final class Project {
+	private int kennung;
 	private String titel;
 	private String beschreibung;
 	private String status;
@@ -11,7 +12,7 @@ public final class Project {
 	private int kategorie;
 	private float spendenbetrag;
 	
-	public Project(String title, String beschreibung, String status, float finanzierungsLimit, String ersteller, int kategorie, float spendenbetrag) 
+	public Project(String title, String beschreibung, String status, float finanzierungsLimit, String ersteller, int kategorie, float spendenbetrag,int kennung) 
 	{
 		this.titel = title;
 		this.beschreibung = beschreibung;
@@ -20,6 +21,7 @@ public final class Project {
 		this.ersteller = ersteller;
 		this.kategorie = kategorie;
 		this.spendenbetrag = spendenbetrag;
+		this.kennung = kennung;
 	}
 
 	public String getTitel() {
@@ -49,5 +51,13 @@ public final class Project {
 	public String getSpendenbetrag() {
 		DecimalFormat decimalFormat = new DecimalFormat("0.00");
 		return decimalFormat.format(spendenbetrag);
+	}
+
+	public int getKennung() {
+		return kennung;
+	}
+
+	public void setKennung(int kennung) {
+		this.kennung = kennung;
 	}
 }

@@ -9,9 +9,7 @@
 		<div id="btn_base_divid">
 					<!--Die Datenbank funder ist ${db2exists}-->
 					<div id="btn_divid">
-						<button id="btn_profil_id">Mein Profil</button>				
-					<!--Die Datenbank funder ist ${db2exists}-->
-						<button id="btn_profil_id" type="submit"  onclick="location.href='/new_project'">Projekt erstellen</button>
+						<a href="view_profile?user=alan@turing.com">Mein Profil</a>
 					</div>
 		</div>
 
@@ -28,7 +26,7 @@
 				<#list projects as project>
 				<li id= "open_projects_li_id">
 					<div id="open_projects_list_divid">
-					<p>${project.getTitel()}</p>
+					<p><a href=view_project?kennung=${project.getKennung()}>${project.getTitel()}</a></p>
 					<p>Erstellt von: ${project.getErsteller()}</p>
 					<p>Aktueller Betrag: ${project.getSpendenbetrag()} Euro</p>
 					</div>
@@ -48,7 +46,7 @@
 				<#list fprojects as fproject>
 				<li id= "occupied_projects_li_id">
 					<div id="occupied_projects_list_divid">
-					<a href="https://google.de/">Projekt Name</a>
+					<a href="https://google.de/">${fproject.getTitel()}</a>
 					<img src="TO BE FILLED" alt="Projekt Bild bitte füllen."/>
 					<p>Erstellt von: Max</p>
 					<p>Aktueller Betrag: 0 Euro</p>

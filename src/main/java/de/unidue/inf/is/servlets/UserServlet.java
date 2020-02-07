@@ -1,6 +1,7 @@
-package vorerstUnnoetig;
+package de.unidue.inf.is.servlets;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import de.unidue.inf.is.domain.User;
 import de.unidue.inf.is.stores.UserStore;
+import de.unidue.inf.is.utils.DBUtil;
 
 
 
@@ -22,18 +24,11 @@ public final class UserServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        // mach was
-        User userToAdd = new User("Manfred", "Mustermann");
-
-        try (UserStore userStore = new UserStore()) {
-            userStore.addUser(userToAdd);
-            // userStore.somethingElse();
-            userStore.complete();
-        }
-
-        // mach noch mehr
-
+    	
     }
-
+    
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+    	
+    	
+    }
 }
